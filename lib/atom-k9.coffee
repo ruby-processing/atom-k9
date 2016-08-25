@@ -13,8 +13,8 @@ module.exports = JRubyArt =
   activate: (state) ->
     atom.commands.add 'atom-workspace', 'atom-k9:run': =>
       @runSketch()
-    atom.commands.add 'atom-workspace', 'atom-k9:present': =>
-      @runSketchPresent()
+    atom.commands.add 'atom-workspace', 'atom-k9:watch': =>
+      @runSketch()
     atom.commands.add 'atom-workspace', 'atom-k9:close': =>
       @closeSketch()
 
