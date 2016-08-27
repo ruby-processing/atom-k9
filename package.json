@@ -1,10 +1,9 @@
 {
   "name": "atom-k9",
   "main": "./lib/atom-k9",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Watch JRubyArt sketches in Atom",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-k9:run"
   },
@@ -18,4 +17,3 @@
     "atom-space-pen-views": "^2.0.3"
   }
 }
-
