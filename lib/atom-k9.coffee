@@ -23,7 +23,7 @@ module.exports = JRubyArt =
     editor  = atom.workspace.getActivePaneItem()
     file    = editor?.buffer.file
     command = path.normalize(atom.config.get("atom-k9.atom-k9-executable"))
-    dummy = [cmd, path.resolve("/home/tux/github/atom-k9/examples/", "atom_test.rb")]
+    dummy = [cmd, path.resolve(".atom/packages/atom-k9/examples/", "atom_test.rb")]
     args = if file then [cmd, file.getPath()] else dummy
     options = {}
     console.log("Running command #{command} #{args.join(" ")}")

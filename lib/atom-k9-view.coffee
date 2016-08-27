@@ -10,7 +10,7 @@ class JRubyArtView extends View
       @div class: css, outlet: 'script', tabindex: -1, =>
         @div class: 'panel-body padded output', outlet: 'output'
   log: (line) ->
-    #console.log(line);
+    console.log(line);
     @output.append $$ ->
       @pre class: "line", =>
         @raw line

@@ -1,7 +1,7 @@
 {
   "name": "atom-k9",
   "main": "./lib/atom-k9",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Watch JRubyArt sketches in Atom",
   "keywords": [
   ],
@@ -21,5 +21,5 @@
   "bugs": {
     "url": "https://github.com/ruby-processing/atom-k9/issues"
   },
-  "homepage": "https://github.com/ruby-processing/atom-k9"
+  "homepage": "https://ruby-processing.github.io/atom-k9/"
 }

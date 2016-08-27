@@ -8,5 +8,6 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
 'atom-text-editor':
-  'alt-ctrl-shift-w': 'atom-k9:run'
+  'alt-ctrl-b': 'atom-k9:run'
+  'alt-ctrl-shift-w': 'atom-k9:watch'
   'ctrl-alt-c': 'atom-k9:close'
