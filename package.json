@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "atom-k9:run"
   },
-  "repository": "https://github.com/atom/atom-k9",
+  "repository": "https://github.com/ruby-processing/atom-k9",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -16,10 +16,6 @@
   "dependencies": {
     "ps-tree": "^1.0.0",
     "atom-space-pen-views": "^2.0.3"
-  },
-  "readme": "# JRubyArt in Atom\n\nWatch JRubyArt sketches from Atom by pressing `ctrl+alt+shift+w`\n\n, ### Running a sketch from Atom\n\n![atom-k9 package in action](atom-k9.png)",
-  "bugs": {
-    "url": "https://github.com/ruby-processing/atom-k9/issues"
-  },
-  "homepage": "https://ruby-processing.github.io/atom-k9/"
+  }
 }
+
