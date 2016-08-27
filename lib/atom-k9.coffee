@@ -12,24 +12,19 @@ module.exports = JRubyArt =
 
   activate: (state) ->
     atom.commands.add 'atom-workspace', 'atom-k9:run': =>
-      @runSketch()
+      @runSketch("--run")
     atom.commands.add 'atom-workspace', 'atom-k9:watch': =>
-      @runSketch()
+      @runSketch("--watch")
     atom.commands.add 'atom-workspace', 'atom-k9:close': =>
       @closeSketch()
 
-  saveSketch: ->
-    editor = atom.workspace.getActivePaneItem()
-    file = editor?.buffer.file
-    if file?.existsSync()
-      editor.save()
-
-  watchSketch: ->
+  runSketch: (cmd) ->
     console.log("watch sketch")
     editor  = atom.workspace.getActivePaneItem()
     file    = editor?.buffer.file
     command = path.normalize(atom.config.get("atom-k9.atom-k9-executable"))
-    args = ["--watch", file.getPath()]
+    dummy = [cmd, path.resolve("/home/tux/github/atom-k9/examples/", "atom_test.rb")]
+    args = if file then [cmd, file.getPath()] else dummy
     options = {}
     console.log("Running command #{command} #{args.join(" ")}")
     stdout = (output) => @display output
@@ -47,17 +42,9 @@ module.exports = JRubyArt =
     @process = new BufferedProcess({command, args, stdout, stderr, exit})
 
 
-  runSketch: ->
-    @saveSketch()
-    @watchSketch()
-
   display: (line) ->
     @view.log(line)
 
   closeSketch: ->
     if @view
       @view.clear()
-    if @process
-      psTree @process.process.pid, (err, children) =>
-        for child in children
-          process.kill(child.PID)
