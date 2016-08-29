@@ -7,5 +7,5 @@ Watch JRubyArt sketches from Atom by pressing `ctrl+alt+shift+w`
 
 
 
-![atom-k9 package in action](https://ruby-processing.github.io/atom-k9/assets/menu.png)
+![atom-k9 package in action](https://cloud.githubusercontent.com/assets/86850/18041266/e2cb229e-6dae-11e6-94a7-397cdffeff46.png)
 
