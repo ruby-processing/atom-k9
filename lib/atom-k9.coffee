@@ -26,7 +26,7 @@ module.exports = JRubyArt =
     dummy = [cmd, path.resolve(".atom/packages/atom-k9/examples/", "atom_test.rb")]
     args = if file then [cmd, file.getPath()] else dummy
     options = {}
-    console.log("Running command #{command} #{args.join(" ")}")
+    console.log("Running command #{command} #{args.join(' ')}")
     stdout = (output) => @display output
     stderr = (output) => @display output
     exit = (code) ->
