@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Run Sketch",
+        "command": "atom-k9:run"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "JRubyArt",
+          "submenu": [
+            {
+              "label": "JRubyArt: Run",
+              "command": "atom-k9:run"
+            },
+            {
+              "label": "JRubyArt: Watch",
+              "command": "atom-k9:watch"
+            },
+            {
+              "label": "Close: Console Window",
+              "command": "atom-k9:close"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

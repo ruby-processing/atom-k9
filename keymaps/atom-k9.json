@@ -1,0 +1,7 @@
+{
+  "atom-text-editor": {
+    "alt-ctrl-b": "atom-k9:run",
+    "alt-ctrl-shift-w": "atom-k9:watch",
+    "ctrl-alt-c": "atom-k9:close"
+  }
+}
