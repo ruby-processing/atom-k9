@@ -1,6 +1,6 @@
 # JRubyArt in Atom
 
-Watch [JRubyArt][jruby_art] sketches from Atom by pressing `ctrl+alt+shift+w` read about it [here][ghpages]
+Create/Watch/Live Edit [JRubyArt][jruby_art] sketches from Atom by pressing `ctrl+alt+shift+w` read about it [here][ghpages]
 
 ### Running a sketch from Atom
 
