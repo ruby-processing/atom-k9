@@ -3,7 +3,7 @@
   "main": "./lib/atom-k9",
   "version": "1.1.0",
   "description": "Watch JRubyArt sketches in Atom",
-  "keywords": [],
+  "keywords": ["jruby_art", "processing", "ruby", "watch"],
   "activationCommands": {
     "atom-workspace": "atom-k9:run"
   },
