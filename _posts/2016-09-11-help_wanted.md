@@ -6,7 +6,7 @@ categories: jruby_art update
 ---
 ### ruby ###
 
-I am self taught rubyist (after java, and a tiny bit of smalltalk), so I am still open to suggestions for improvements to [JRubyArt][jruby_art].
+I am self taught rubyist (after java, and a tiny bit of smalltalk), so I am still open to suggestions for improvements to [JRubyArt][jruby_art]. One thing that JRubyArt is missing is the ability to export a standalone application (cf ruby-processing), knowledge of [warbler][warbler] would probably be handy.
 
 ### javascript ###
 
@@ -16,3 +16,4 @@ I can barely understand javascript code, it seems quite alien to me, and I need 
 [processing]:https://github.com/bleikamp/processing
 [jruby_art]:https://github.com/ruby-processing/JRubyArt
 [atom-k9]:https://github.com/ruby-processing/atom-k9
+[warbler]:https://github.com/jruby/warbler
