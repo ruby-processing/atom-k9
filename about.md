@@ -14,6 +14,6 @@ The standout feature of [JRubyArt][jruby_art] is the watch mode (leaves processi
 [processing]: https://processing.org
 [atom-processing]: https://github.com/bleikamp/processing
 [jruby]: https://jruby.org
-[jruby_art]: https://github.com/ruby-processing/JRubyArt
+[jruby_art]: https://ruby-processing.github.io/JRubyArt/
 [atom]:https://atom.io/
 [ide]:https://processing.org/reference/environment/
