@@ -1,9 +1,12 @@
 {
-  "atom-text-editor": {
+  ".platform-linux atom-text-editor, .platform-win32 atom-text-editor": {
     "alt-ctrl-b": "atom-k9:run",
     "alt-ctrl-shift-w": "atom-k9:watch",
+    "alt-ctrl-c": "atom-k9:close"
+  },
+  ".platform-darwin atom-text-editor": {
+    "alt-cmd-b": "atom-k9:run",
     "alt-cmd-shift-w": "atom-k9:watch",
-    "ctrl-alt-c": "atom-k9:close",
-    "ctrl-cmd-c": "atom-k9:close"
+    "alt-cmd-c": "atom-k9:close"
   }
 }
