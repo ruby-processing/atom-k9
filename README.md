@@ -1,6 +1,6 @@
 # JRubyArt in Atom
 
-Use atom to edit [JRubyArt][jruby_art] sketches. Run them from atom (in [watch mode][watch]) by pressing `ctrl+alt+shift+w` and the sketch will reload when you [save your changes][ghpages].
+Use atom to edit [JRubyArt][jruby_art] sketches. Run them from atom (in [watch mode][watch]) by pressing `ctrl+alt+shift+w` (`cmd+alt+shift+w` macOS) and the sketch will reload when you [save your changes][ghpages].
 
 ### Running a sketch from Atom
 
