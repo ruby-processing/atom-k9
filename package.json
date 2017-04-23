@@ -1,7 +1,7 @@
 {
   "name": "atom-k9",
   "main": "./lib/atom-k9",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Watch JRubyArt sketches in Atom",
   "keywords": [
     "jruby_art",
