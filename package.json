@@ -9,6 +9,13 @@
     "ruby",
     "watch"
   ],
+  "configSchema": {
+    "executablePath": {
+      "type": "string",
+      "description": "The path to the k9 executable. Find by running `which k9`",
+      "default": "k9"
+    }
+  },
   "activationCommands": {
     "atom-workspace": "atom-k9:run"
   },
