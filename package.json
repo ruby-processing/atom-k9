@@ -10,7 +10,7 @@
     "watch"
   ],
   "configSchema": {
-    "executablePath": {
+    "atom-k9-executable": {
       "type": "string",
       "description": "The path to the k9 executable. Find by running `which k9`",
       "default": "k9"
