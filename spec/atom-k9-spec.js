@@ -1,10 +1,13 @@
 'use babel';
 
-describe('when a test is written', () => {
-  it('has some expectations that should pass', () => {
-    let apples = 'apples'
-    let oranges = 'oranges'
-    expect(apples).toBe('apples')
-    expect(oranges).toBe('oranges')
+import JRubyArtView from '../lib/atom-k9-view';
+
+describe('The JRubyArt console it should be empty on clear', () => {
+  it('expect it does something', () => {
+    let view = new JRubyArtView();
+    atom.workspace.addBottomPanel({item: this.view});
+    expect(view != null);
+    view.clear();
+    expect(view == []);
   });
 });
