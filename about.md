@@ -8,7 +8,7 @@ This package enables watch mode to be run from the [Atom editor][atom]. Much ins
 
 The standout feature of [JRubyArt][jruby_art] is the watch mode (leaves processing for dead) as does the gorgeous [Atom editor][atom] _cf_ the [processing ide][ide] which is emphatically late 20th century. Hell I'm even composing this with the atom editor with adjacent preview of the rendered markdown.
 
-[JRubyArt][jruby_art] is a ruby wrapper for [processing-3.2.1][processing]. Create processing sketches in ruby using regular ruby-2.3 syntax, and use the magic [JRuby][jruby] to run them. You can use both rubygems and and regular processing libraries in your sketches.
+[JRubyArt][jruby_art] is a ruby implementation of [processing-4.0.0][processing]. Create processing sketches in ruby using regular ruby-2.5 syntax, and use the magic [JRuby][jruby] to run them. You can use both rubygems and and regular processing libraries in your sketches.
 
 [decaffeinate]:http://decaffeinate-project.org/repl/
 [processing]: https://processing.org
