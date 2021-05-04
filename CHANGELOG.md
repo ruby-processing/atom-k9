@@ -1,3 +1,5 @@
+## 1.6.1 - For security and efficiency use atom-pen-views-plus
+
 ## 1.0.1 - Got rid of those pesky js files (how did they get there?)
 
 ## 1.0.0 - De-caffeinated version, inlude mystery js files in menus and and keymaps folders
